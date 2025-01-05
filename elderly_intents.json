@@ -1,0 +1,195 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How are you doing?",
+        "Hey! How can I help you today?",
+        "Good day! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Take care",
+        "Have a nice day"
+      ],
+      "responses": [
+        "You're welcome! Have a great day!",
+        "Goodbye! Take care!",
+        "See you later! Stay safe!",
+        "Have a wonderful day ahead!"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you so much",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "No problem, glad I could assist!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "date_time",
+      "patterns": [
+        "What is the time?",
+        "What time is it?",
+        "What is today's date?",
+        "Can you tell me the date?"
+      ],
+      "responses": [
+        "The current date and time is: {0}",
+        "Today is {0}",
+        "The date and time now is {0}"
+      ]
+    },
+    {
+      "tag": "reminder",
+      "patterns": [
+        "Remind me to take my medication",
+        "Set a reminder for my appointment",
+        "Remind me to call my doctor",
+        "Set a reminder for tomorrow",
+        "Remind me about my exercise",
+        "Remind me to eat lunch"
+      ],
+      "responses": [
+        "Okay, I will remind you to take your medication.",
+        "I will set a reminder for your appointment.",
+        "Don't worry, I'll remind you to call your doctor.",
+        "Your reminder for tomorrow is set.",
+        "I will remind you to exercise today.",
+        "Don't forget to eat lunch! I'll remind you soon."
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "When do I take my medication?",
+        "What medications do I need to take?",
+        "Remind me to take my pills",
+        "What time should I take my medication?"
+      ],
+      "responses": [
+        "Please check your prescription or ask your healthcare provider for the correct schedule.",
+        "I can remind you to take your medication at the time you've set. What time should I remind you?",
+        "Let me know the medication schedule, and I'll remind you!"
+      ]
+    },
+    {
+      "tag": "health_check",
+      "patterns": [
+        "How are you today?",
+        "Do you know how my health is?",
+        "Can you check my health?",
+        "How is my blood pressure?"
+      ],
+      "responses": [
+        "I am not a medical professional, but it’s important to stay in touch with your healthcare provider for regular health checks.",
+        "It's always good to monitor your health regularly. Please consult your doctor for detailed advice.",
+        "Remember to check your blood pressure and other vitals with your healthcare provider."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "Is it going to rain today?",
+        "What is the temperature outside?",
+        "How's the weather?"
+      ],
+      "responses": [
+        "I'm not able to provide weather information at the moment, but you can check it online!",
+        "I can't check the weather right now, but try a weather app or website."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Say something funny"
+      ],
+      "responses": [
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised!"
+      ]
+    },
+    {
+      "tag": "companion",
+      "patterns": [
+        "Are you my friend?",
+        "Can we chat?",
+        "Do you want to talk?",
+        "I'm feeling lonely, can you talk to me?"
+      ],
+      "responses": [
+        "I'm always here to talk and keep you company! What would you like to talk about?",
+        "Of course! I'm here whenever you need a conversation.",
+        "I'm happy to chat with you! How are you feeling today?"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "When is my doctor's appointment?",
+        "What time is my next appointment?",
+        "Do I have any appointments today?",
+        "Remind me of my appointments"
+      ],
+      "responses": [
+        "I can remind you of your appointments. Please tell me the time and date, and I'll set the reminder.",
+        "Please check with your calendar or healthcare provider for the latest appointments."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "Help! I need assistance",
+        "Call an emergency service",
+        "I need help!",
+        "Emergency!"
+      ],
+      "responses": [
+        "If you are in an emergency, please dial your local emergency number immediately.",
+        "Please contact emergency services right away if you're in urgent need of help."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "What is your name?",
+        "Can you help me with something?",
+        "How do you work?",
+        "What can you do?"
+      ],
+      "responses": [
+        "I'm your personal assistant. How can I help you today?",
+        "I can help with reminders, answering questions, and more. What do you need?",
+        "I am a virtual assistant. Ask me anything, and I'll try my best to help!"
+      ]
+    }
+  ]
+}
